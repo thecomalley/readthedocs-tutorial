@@ -1,0 +1,12 @@
+<div id="chat-window">
+  <div id="messages"></div>
+  <input id="input-message" type="text">
+  <button id="send-button">Send</button>
+</div>
+
+<script>
+  document.getElementById('send-button').addEventListener('click', function() {
+      var message = document.getElementById('input-message').value;
+      // TODO: Send 'message' to your Azure AI Studio model and handle the response
+  });
+</script>
